@@ -10,14 +10,13 @@ angular.module("Contacts", ["angular-md5", "xeditable"])
     console.log(allDataStored.indexOf("contacts"));
 
     if(allDataStored.indexOf("contacts") < 0){
-      $scope.contactsArr = JSON.parse(localStorage.contacts);
-    }else if(allDataStored.indexOf("contacts") >= 0) {
       $scope.contactsArr = [
         {name: "Tania Leonian", email: "tania.dev77@gmail.com", phone: "510-798-3716", editable: false},
         {name: "Lionel Briones", email: "lionelbriones@gmail.com", phone: "", editable: false},
         {name: "Samer Buna", email: "samer.buna@gmail.com", phone: "", editable: false}
       ];
-      // debugger;
+    }else if(allDataStored.indexOf("contacts") >= 0) {
+      $scope.contactsArr = JSON.parse(localStorage.contacts);
     }
 
 
