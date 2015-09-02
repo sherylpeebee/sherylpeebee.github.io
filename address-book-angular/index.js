@@ -3,7 +3,7 @@
 //
 //     $("input").on("keyup", function(e){
 //       if(e.which == 13){
-//         something.editable = false;
+//         contact.editable = false;
 //       }
 //     });
 //   });
@@ -35,18 +35,18 @@ angular.module("Contacts", ["angular-md5", "xeditable"])
 
       $scope.contact = { name: "", gravatar: "", email: "",  phone: ""};
     };
-    $scope.editable = function(something){
-      if(!something.editable){
-         something.editable = true;
+    $scope.editable = function(contact){
+      if(!contact.editable){
+         contact.editable = true;
       }
       $(document).ready(function(){
           $("input").on("keyup", function(e){
             if(e.which == 13){
-              something.editable = false;
+              contact.editable = false;
             }
           });
         });
-      console.log(something.editable);
+      console.log(contact.editable);
     };
     $scope.deleteContact = function(index){
       $scope.contactsArr.splice(index, 1);
