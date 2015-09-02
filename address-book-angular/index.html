@@ -48,7 +48,7 @@
         </th>
       </thead>
       <tbody>
-        <tr ng-repeat= "contact in contactsArr | filter: search" ng-dblclick="editable(contact)">
+        <tr ng-repeat= "contact in contactsArr track by $index | filter: search" ng-dblclick="editable(contact)">
           <td>
             <button class="btn btn-xs btn-danger" type="button" name="button" ng-click="deleteContact($index)">delete</button>
           </td>
