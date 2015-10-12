@@ -12,7 +12,7 @@ body {
   color: white;
   margin-left: 200px;
   margin-top: 100px;
-  display: inline-flex;
+  display: flex;
   flex-direction: row-reverse;
 }
 
@@ -155,13 +155,13 @@ body {
 }
 
 .digital_side {
-    height: 860px;
-    width: 45%;
+    height: 619px;
+    width: 42%;
     background-color: white;
     float: right;
     color: #ff4b38;
     margin-top: 20px;
-    margin-right: 17px;
+    margin-right: -189px;
     position: relative;
     bottom: -5px;
     font-family: 'Josefin Sans', sans-serif;
@@ -172,15 +172,15 @@ h1.digital_time {
     padding: 33px;
     text-align: center;
     letter-spacing: 29px;
-    margin-top: 200px;
+    margin-top: 165px;
     border-bottom: 61px solid ;
     margin-left: -16px;
-    width: 104%;
+    width: 108%;
 }
 
 @media screen and (min-width: 768px){
   .jumbotron .h1, .jumbotron h1 {
-      font-size: 135px;
+      font-size: 46px;
   }
 }
 
