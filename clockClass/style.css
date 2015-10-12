@@ -156,26 +156,28 @@ body {
 
 .digital_side {
     height: 619px;
-    width: 42%;
+    width: 37%;
     background-color: white;
     float: right;
     color: #ff4b38;
     margin-top: 20px;
-    margin-right: -189px;
+    margin-right: 33px;
     position: relative;
     bottom: -5px;
     font-family: 'Josefin Sans', sans-serif;
 }
 
 h1.digital_time {
-    border-top: 61px solid ;
+    border-top: 61px solid;
     padding: 33px;
     text-align: center;
     letter-spacing: 29px;
     margin-top: 165px;
-    border-bottom: 61px solid ;
-    margin-left: -16px;
-    width: 108%;
+    border-bottom: 61px solid;
+    margin-left: -8px;
+    width: 106%;
+    left: -6px;
+    position: relative;
 }
 
 @media screen and (min-width: 768px){
