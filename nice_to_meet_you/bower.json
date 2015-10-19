@@ -1,0 +1,20 @@
+{
+  "name": "my-site",
+  "version": "0.0.0",
+  "authors": [
+    "Sheryl Boughton <sherpbo@gmail.com>"
+  ],
+  "description": "let's be friends. and maybe you can totally give me a job",
+  "keywords": [
+    "sheryl",
+    "boughton"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
